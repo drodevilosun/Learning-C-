@@ -1,0 +1,7 @@
+
+
+Nếu base class method có virtual:
+- Khi base class pointer point to derived class, và method được gọi. 
+    method nào có virtual thì nó sẽ looking for method in derived class có hay không, nếu có thì sử dụng của derived class. 
+    Nếu method nào không có virtual thì sẽ là static binding to base class.
+Xem thêm 37.7
